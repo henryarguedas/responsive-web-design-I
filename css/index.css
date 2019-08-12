@@ -52,6 +52,12 @@ table {
     display: flex;
 } */
 
+.motto h1 {
+    font-size: 72px;
+    text-align: center;
+        
+}
+
 .container {
     max-width: 900px;
 }
@@ -79,6 +85,16 @@ table {
     border: 2px solid blue;
     display: flex;
     justify-content: space-around;
+    
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-nav a:hover {
+    
 }
 
 .main-header {
@@ -91,3 +107,12 @@ table {
     justify-content: space-around;
     align-items: center;
 }
+
+.motto {
+    border: 2px solid slateblue;
+}
+
+.code-img {
+    border: 2px solid salmon;
+}
+
