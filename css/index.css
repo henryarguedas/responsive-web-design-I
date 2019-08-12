@@ -52,6 +52,22 @@ table {
     display: flex;
 } */
 
+.container {
+    max-width: 900px;
+}
+
+@media(max-width: 500px) {
+    .container {
+        border: 50px solid yellowgreen;
+    }
+}
+
+@media(max-width: 375px) {
+    .container {
+        background: cornflowerblue;
+    }
+}
+
 .header-content-band {
     border: 2px solid red;
     display: flex;
@@ -63,4 +79,15 @@ table {
     border: 2px solid blue;
     display: flex;
     justify-content: space-around;
+}
+
+.main-header {
+    border: 2px solid green;
+}
+
+.motto-code-img-div {
+    border: 2px solid orange;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
