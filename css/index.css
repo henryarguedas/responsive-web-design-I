@@ -97,6 +97,24 @@ table {
     
 }
 
+/* .btn {
+    background: black;
+    color: white;
+} */
+
+.motto .btn {
+    border: 1px solid black;
+    background: white;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background: black;
+    color: white;
+}
+
 .main-header {
     border: 2px solid green;
 }
