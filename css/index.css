@@ -62,13 +62,13 @@ table {
     max-width: 900px;
 }
 
-@media(max-width: 500px) {
+@media(max-width: 800px) {
     .container {
         border: 50px solid yellowgreen;
     }
 }
 
-@media(max-width: 375px) {
+@media(max-width: 500px) {
     .container {
         background: cornflowerblue;
     }
@@ -108,6 +108,8 @@ table {
     cursor: pointer;
     font-size: 18px;
     border-radius: 10px;
+    max-width: 120px;
+    
 }
 
 .btn:hover {
@@ -126,8 +128,12 @@ table {
     align-items: center;
 }
 
+/* questionable use of flexbox */
 .motto {
     border: 2px solid slateblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .code-img {
