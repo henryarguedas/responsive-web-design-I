@@ -66,44 +66,40 @@ table {
     .container {
         border: 50px solid yellowgreen;
     }
-}
-
-@media(max-width: 800px) {
-    .code-img {
+    .code-img {     
         display: none;
     }
-}
 
-@media(max-width: 800px) {
     .header-content-band {
         flex-direction: column-reverse;
         justify-content: space-around;
     }
-}
 
-
-
-@media(max-width: 800px) {
- .motto   h1 {
+    .motto   h1 {
          font-size: 50px;
     }
 
-    
 }
+
+
 @media(max-width: 500px) {
     .container {
         background: cornflowerblue;
+
     }
-}
-
-
-
-
-@media(max-width: 500px) {
+    .main-nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
   .motto  h1 {
         font-size: 30px;
     }
+
+
 }
+
+
 
 .header-content-band {
     border: 2px solid red;
@@ -186,7 +182,3 @@ table {
     justify-content: center;
 }
 
-
-.middle-img {
-
-}
