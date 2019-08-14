@@ -1,5 +1,4 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
-* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -64,7 +63,7 @@ table {
 
 @media(max-width: 800px) {
     .container {
-        border: 50px solid yellowgreen;
+        border: 5px solid yellowgreen;
     }
     .code-img {     
         display: none;
@@ -84,10 +83,10 @@ table {
 
 @media(max-width: 500px) {
     .container {
-        background: cornflowerblue;
 
     }
     .main-nav {
+        width: 100%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -95,6 +94,28 @@ table {
   .motto  h1 {
         font-size: 30px;
     }
+
+.main-nav a {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+
+.logo-div {
+    display: flex;
+    justify-content: center
+}
+
+.top-articles {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-articles {
+    display: flex;
+    flex-direction: column;
+}
 
 
 }
@@ -108,7 +129,6 @@ table {
 }
 
 .main-nav {
-    width: 65%;
     border: 2px solid blue;
     display: flex;
     justify-content: space-around;
@@ -116,13 +136,14 @@ table {
 }
 
 .main-nav a {
+    margin: 0 25px;
     text-decoration: none;
     color: black;
 }
-
+/* 
 .main-nav a:hover {
     
-}
+} */
 
 /* .btn {
     background: black;
@@ -182,3 +203,7 @@ table {
     justify-content: center;
 }
 
+.middle-img {
+    width: 100%;
+
+}
