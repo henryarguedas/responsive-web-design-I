@@ -1,3 +1,213 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* .main-header {
+    display: flex;
+} */
+
+.motto h1 {
+    font-size: 72px;
+    text-align: center;
+        
+}
+
+.container {
+    max-width: 900px;
+}
+
+@media(max-width: 800px) {
+    .container {
+        border: 5px solid yellowgreen;
+    }
+    .code-img {     
+        display: none;
+    }
+
+    .header-content-band {
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+
+    .motto   h1 {
+         font-size: 50px;
+    }
+
+}
 
 
+@media(max-width: 500px) {
+    .container {
+
+    }
+    .main-nav {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  .motto  h1 {
+        font-size: 30px;
+    }
+
+.main-nav a {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+
+.logo-div {
+    display: flex;
+    justify-content: center
+}
+
+.top-articles {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-articles {
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer {
+    border-top: 2px solid black;
+}
+
+}
+
+
+
+.header-content-band {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-nav {
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.main-nav a {
+    margin: 0 25px;
+    text-decoration: none;
+    color: black;
+}
+/* 
+.main-nav a:hover {
+    
+} */
+
+/* .btn {
+    background: black;
+    color: white;
+} */
+
+.motto .btn {
+    border: 1px solid black;
+    background: white;
+    cursor: pointer;
+    font-size: 18px;
+    /* border-radius: 10px; */
+    max-width: 120px;
+    
+}
+
+.btn:hover {
+    background: black;
+    color: white;
+}
+
+.main-header {
+    border: 2px solid green;
+}
+
+.motto-code-img-div {
+    border: 2px solid orange;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* questionable use of flexbox */
+.motto {
+    border: 2px solid slateblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.code-img {
+    border: 2px solid salmon;
+}
+
+
+.top-articles {
+    display: flex;
+
+}
+
+.bottom-articles {
+    display: flex;
+}
+
+.copywrite {
+    display: flex;
+    justify-content: center;
+}
+
+.middle-img {
+    width: 100%;
+
+}
